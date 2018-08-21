@@ -14,6 +14,17 @@
 		058C42B3211095300032B01A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058C42B1211095300032B01A /* LaunchScreen.storyboard */; };
 		058C42BE211095300032B01A /* RTCVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C42BD211095300032B01A /* RTCVideoTests.swift */; };
 		058C42C9211095300032B01A /* RTCVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C42C8211095300032B01A /* RTCVideoUITests.swift */; };
+		058C42D72110954B0032B01A /* WebRTCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C42D62110954B0032B01A /* WebRTCClient.swift */; };
+		058C42D9211095550032B01A /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C42D8211095550032B01A /* VideoViewController.swift */; };
+		058C42DD211096F80032B01A /* SignalClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C42DC211096F80032B01A /* SignalClient.swift */; };
+		058C42E22110976D0032B01A /* RTCSessionDescription+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C42DF2110976C0032B01A /* RTCSessionDescription+JSON.swift */; };
+		058C42E32110976D0032B01A /* RTCStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C42E02110976C0032B01A /* RTCStates.swift */; };
+		058C42E42110976D0032B01A /* RTCIceCandidate+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C42E12110976D0032B01A /* RTCIceCandidate+JSON.swift */; };
+		058C42E62110978D0032B01A /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C42E52110978D0032B01A /* SocketIOClient.swift */; };
+		058C42E82110B3D00032B01A /* VideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 058C42E72110B3D00032B01A /* VideoViewController.xib */; };
+		1E2C90975AB7D9C846EE65BE /* Pods_RTCVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733C13A4DF265AB8162F25A1 /* Pods_RTCVideo.framework */; };
+		B963A802BF22F6103AEA098E /* Pods_RTCVideoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34870DA0208F995BFEB1E6E3 /* Pods_RTCVideoUITests.framework */; };
+		DA8589B42FE5D197897AD3E6 /* Pods_RTCVideoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210DC75107F65B4700CC7047 /* Pods_RTCVideoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,23 @@
 		058C42C4211095300032B01A /* RTCVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTCVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		058C42C8211095300032B01A /* RTCVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTCVideoUITests.swift; sourceTree = "<group>"; };
 		058C42CA211095300032B01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058C42D62110954B0032B01A /* WebRTCClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRTCClient.swift; sourceTree = "<group>"; };
+		058C42D8211095550032B01A /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		058C42DC211096F80032B01A /* SignalClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalClient.swift; sourceTree = "<group>"; };
+		058C42DF2110976C0032B01A /* RTCSessionDescription+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RTCSessionDescription+JSON.swift"; sourceTree = "<group>"; };
+		058C42E02110976C0032B01A /* RTCStates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTCStates.swift; sourceTree = "<group>"; };
+		058C42E12110976D0032B01A /* RTCIceCandidate+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RTCIceCandidate+JSON.swift"; sourceTree = "<group>"; };
+		058C42E52110978D0032B01A /* SocketIOClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOClient.swift; sourceTree = "<group>"; };
+		058C42E72110B3D00032B01A /* VideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoViewController.xib; sourceTree = "<group>"; };
+		05A1A0C754D1DAC2DE25FD33 /* Pods-RTCVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTCVideo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RTCVideo/Pods-RTCVideo.debug.xcconfig"; sourceTree = "<group>"; };
+		210DC75107F65B4700CC7047 /* Pods_RTCVideoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RTCVideoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34870DA0208F995BFEB1E6E3 /* Pods_RTCVideoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RTCVideoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		477BD1DC601AFF2E23545456 /* Pods-RTCVideoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTCVideoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RTCVideoUITests/Pods-RTCVideoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4E4AF5F960E64813AA086488 /* Pods-RTCVideoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTCVideoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RTCVideoTests/Pods-RTCVideoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		733C13A4DF265AB8162F25A1 /* Pods_RTCVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RTCVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC9C19D9265B78C325C6250 /* Pods-RTCVideoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTCVideoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RTCVideoUITests/Pods-RTCVideoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CED33676849578909F89EEDB /* Pods-RTCVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTCVideo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RTCVideo/Pods-RTCVideo.release.xcconfig"; sourceTree = "<group>"; };
+		FCB2A668D7C42E19610872D3 /* Pods-RTCVideoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTCVideoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RTCVideoTests/Pods-RTCVideoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E2C90975AB7D9C846EE65BE /* Pods_RTCVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA8589B42FE5D197897AD3E6 /* Pods_RTCVideoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B963A802BF22F6103AEA098E /* Pods_RTCVideoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +112,8 @@
 				058C42BC211095300032B01A /* RTCVideoTests */,
 				058C42C7211095300032B01A /* RTCVideoUITests */,
 				058C42A6211095300032B01A /* Products */,
+				FBC4E0B427D8CED52B227F52 /* Pods */,
+				51A621ADB12D9ACE4C98D4E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +130,18 @@
 		058C42A7211095300032B01A /* RTCVideo */ = {
 			isa = PBXGroup;
 			children = (
+				058C42DE211097600032B01A /* Extensions */,
 				058C42A8211095300032B01A /* AppDelegate.swift */,
 				058C42AA211095300032B01A /* ViewController.swift */,
+				058C42E72110B3D00032B01A /* VideoViewController.xib */,
 				058C42AC211095300032B01A /* Main.storyboard */,
 				058C42AF211095300032B01A /* Assets.xcassets */,
 				058C42B1211095300032B01A /* LaunchScreen.storyboard */,
+				058C42D62110954B0032B01A /* WebRTCClient.swift */,
 				058C42B4211095300032B01A /* Info.plist */,
+				058C42D8211095550032B01A /* VideoViewController.swift */,
+				058C42DC211096F80032B01A /* SignalClient.swift */,
+				058C42E52110978D0032B01A /* SocketIOClient.swift */,
 			);
 			path = RTCVideo;
 			sourceTree = "<group>";
@@ -125,6 +164,39 @@
 			path = RTCVideoUITests;
 			sourceTree = "<group>";
 		};
+		058C42DE211097600032B01A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				058C42E12110976D0032B01A /* RTCIceCandidate+JSON.swift */,
+				058C42DF2110976C0032B01A /* RTCSessionDescription+JSON.swift */,
+				058C42E02110976C0032B01A /* RTCStates.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		51A621ADB12D9ACE4C98D4E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				733C13A4DF265AB8162F25A1 /* Pods_RTCVideo.framework */,
+				210DC75107F65B4700CC7047 /* Pods_RTCVideoTests.framework */,
+				34870DA0208F995BFEB1E6E3 /* Pods_RTCVideoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBC4E0B427D8CED52B227F52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05A1A0C754D1DAC2DE25FD33 /* Pods-RTCVideo.debug.xcconfig */,
+				CED33676849578909F89EEDB /* Pods-RTCVideo.release.xcconfig */,
+				4E4AF5F960E64813AA086488 /* Pods-RTCVideoTests.debug.xcconfig */,
+				FCB2A668D7C42E19610872D3 /* Pods-RTCVideoTests.release.xcconfig */,
+				7BC9C19D9265B78C325C6250 /* Pods-RTCVideoUITests.debug.xcconfig */,
+				477BD1DC601AFF2E23545456 /* Pods-RTCVideoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 058C42CD211095300032B01A /* Build configuration list for PBXNativeTarget "RTCVideo" */;
 			buildPhases = (
+				19FF2274182D002049B8580F /* [CP] Check Pods Manifest.lock */,
 				058C42A1211095300032B01A /* Sources */,
 				058C42A2211095300032B01A /* Frameworks */,
 				058C42A3211095300032B01A /* Resources */,
+				D29412F3C8E874B71A27ED8E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 058C42D0211095300032B01A /* Build configuration list for PBXNativeTarget "RTCVideoTests" */;
 			buildPhases = (
+				75B85FC32F7E07C85AC31A95 /* [CP] Check Pods Manifest.lock */,
 				058C42B5211095300032B01A /* Sources */,
 				058C42B6211095300032B01A /* Frameworks */,
 				058C42B7211095300032B01A /* Resources */,
@@ -167,6 +242,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 058C42D3211095300032B01A /* Build configuration list for PBXNativeTarget "RTCVideoUITests" */;
 			buildPhases = (
+				7A8CB91B2C3F666DFEDF0E06 /* [CP] Check Pods Manifest.lock */,
 				058C42C0211095300032B01A /* Sources */,
 				058C42C1211095300032B01A /* Frameworks */,
 				058C42C2211095300032B01A /* Resources */,
@@ -231,6 +307,7 @@
 			files = (
 				058C42B3211095300032B01A /* LaunchScreen.storyboard in Resources */,
 				058C42B0211095300032B01A /* Assets.xcassets in Resources */,
+				058C42E82110B3D00032B01A /* VideoViewController.xib in Resources */,
 				058C42AE211095300032B01A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +328,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19FF2274182D002049B8580F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RTCVideo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75B85FC32F7E07C85AC31A95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RTCVideoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A8CB91B2C3F666DFEDF0E06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RTCVideoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D29412F3C8E874B71A27ED8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RTCVideo/Pods-RTCVideo-frameworks.sh",
+				"${PODS_ROOT}/GoogleWebRTC/Frameworks/frameworks/WebRTC.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RTCVideo/Pods-RTCVideo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		058C42A1211095300032B01A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				058C42E62110978D0032B01A /* SocketIOClient.swift in Sources */,
 				058C42AB211095300032B01A /* ViewController.swift in Sources */,
+				058C42E42110976D0032B01A /* RTCIceCandidate+JSON.swift in Sources */,
 				058C42A9211095300032B01A /* AppDelegate.swift in Sources */,
+				058C42D9211095550032B01A /* VideoViewController.swift in Sources */,
+				058C42DD211096F80032B01A /* SignalClient.swift in Sources */,
+				058C42E22110976D0032B01A /* RTCSessionDescription+JSON.swift in Sources */,
+				058C42E32110976D0032B01A /* RTCStates.swift in Sources */,
+				058C42D72110954B0032B01A /* WebRTCClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +512,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -407,6 +573,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -428,6 +595,7 @@
 		};
 		058C42CE211095300032B01A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05A1A0C754D1DAC2DE25FD33 /* Pods-RTCVideo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +614,7 @@
 		};
 		058C42CF211095300032B01A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CED33676849578909F89EEDB /* Pods-RTCVideo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +633,7 @@
 		};
 		058C42D1211095300032B01A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E4AF5F960E64813AA086488 /* Pods-RTCVideoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +655,7 @@
 		};
 		058C42D2211095300032B01A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCB2A668D7C42E19610872D3 /* Pods-RTCVideoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +677,7 @@
 		};
 		058C42D4211095300032B01A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BC9C19D9265B78C325C6250 /* Pods-RTCVideoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +698,7 @@
 		};
 		058C42D5211095300032B01A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 477BD1DC601AFF2E23545456 /* Pods-RTCVideoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
