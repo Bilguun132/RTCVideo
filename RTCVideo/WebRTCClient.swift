@@ -36,7 +36,7 @@ class WebRTCClient: NSObject {
         let config = RTCConfiguration()
         
         // We use Google's public stun/turn server. For production apps you should deploy your own stun/turn servers.
-        config.iceServers = [RTCIceServer(urlStrings: ["stun:stun.l.google.com:19302"])]
+        config.iceServers = [RTCIceServer(urlStrings: ["stun:stun.l.google.com:19302"]),RTCIceServer(urlStrings: ["stun:stun2.l.google.com:19302"]),RTCIceServer(urlStrings: ["stun:stun3.l.google.com:19302"]),RTCIceServer(urlStrings: ["stun:stun.sipgate.net:3478"])]
         
         // Unified plan is more superior than planB
         config.sdpSemantics = .unifiedPlan

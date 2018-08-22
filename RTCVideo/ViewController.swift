@@ -170,10 +170,6 @@ extension ViewController: SignalClientDelegate {
         print("Received remote sdp")
         self.webRTCClient.set(remoteSdp: sdp) { (error) in
             self.hasRemoteSdp = true
-//            self.webRTCClient.answer { (localSdp) in
-//                self.hasLocalSdp = true
-//                self.signalIOClient.send(sdp: localSdp)
-//            }
         }
     }
     
